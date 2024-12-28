@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Catch the cat</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch the cat</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Choose your cat</h1>
+      <ul class="cats-list">
+        <li>
+          <button class="choose-cat-btn">
+            <p>Cat1</p>
+            <img src="https://pngimg.com/uploads/cat/cat_PNG50430.png" alt="" />
+          </button>
+        </li>
+
+        <li>
+          <button class="choose-cat-btn">
+            <p>Cat2</p>
+            <img src="https://pngimg.com/uploads/cat/cat_PNG50515.png" alt="" />
+          </button>
+        </li>
+
+        <li>
+          <button class="choose-cat-btn">
+            <p>Cat3</p>
+            <img src="https://pngimg.com/uploads/cat/cat_PNG50528.png" alt="" />
+          </button>
+        </li>
+
+        <li>
+          <button class="choose-cat-btn">
+            <p>Cat4</p>
+            <img src="https://pngimg.com/uploads/cat/cat_PNG118.png" alt="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">00:00</h3>
+      <h3 id="score" class="score">Score:0</h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet?<br />
+        You are playing impossible game!
+      </h5>
+
+      <!-- <div class="cat">
+        <img src="https://pngimg.com/uploads/cat/cat_PNG50430.png" alt="" />
+      </div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
