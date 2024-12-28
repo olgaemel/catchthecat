@@ -98,6 +98,7 @@ h1 {
 .score {
   position: absolute;
   top: 20px;
+  font-size: 14px;
 }
 
 .time {
